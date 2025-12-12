@@ -1,17 +1,15 @@
 using UnityEngine;
 
-public class ScoreTrigger : MonoBehaviour
+public class PointBubble : MonoBehaviour
 {
-    public RoundKeeper roundKeeper;
+    public GameObject bubble;
     public ScoreKeeper scoreKeeper;
     public int points = 1;
-    public int round = 1;
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        roundKeeper.AddRound(round);
         scoreKeeper.AddScore(points);
-        Destroy(collider.gameObject);
+        Destroy(bubble.gameObject);
 
     }
 }

@@ -1,17 +1,22 @@
 using UnityEngine;
+using TMPro;
+using Unity.VisualScripting;
 
 public class Player : MonoBehaviour
 {
     public float speed = 1;
+    public int roundCount = 1;
     public GameObject disc;
     public CameraFollow cameraFollow;
     private GameObject activeDisc;
-
+    public TMP_Text endText;
     void Update()
     {
         Move();
         DropDisc();
+
     }
+
 
     void DropDisc()
     {
@@ -24,6 +29,7 @@ public class Player : MonoBehaviour
             cameraFollow.FollowDisc(activeDisc);
         }
     }
+
 
     void Move()
     {

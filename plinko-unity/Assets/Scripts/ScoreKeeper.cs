@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ScoreKeeper : MonoBehaviour
@@ -10,7 +11,6 @@ public class ScoreKeeper : MonoBehaviour
     {
         UpdateScoreDisplay();
     }
-
     public void AddScore(int points)
     {
         score += points;

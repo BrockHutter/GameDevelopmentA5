@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 7a6f9a8b9eb4b6743b8c437eb67dc7fc
+guid: ba40d496137f4094ba2856656fda3348
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - disc: {fileID: 3450387613196310671, guid: 22fff4fa7aa8e9c43b436f2c0d2bbc33, type: 3}
-  - cameraFollow: {instanceID: 0}
-  - endText: {instanceID: 0}
+  - bubble: {fileID: 5250653227391376023, guid: bf9edee6e6611f743a79a2f11803b808, type: 3}
+  - roundKeeper: {instanceID: 0}
+  - scoreKeeper: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
